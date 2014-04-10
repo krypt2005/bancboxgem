@@ -2,8 +2,11 @@ require 'net/http'
 require "uri"
 require 'json'
 
-module BancBox
+module Bancbox
   class Investor
+      def hello
+        puts "coming in modiule"
+      end
 	  def self.create_investor(apikey,secret,url,fname,lname,email,phone,address_1,address_2,city,state,zip,ssn,dob)
 	   puts "-----------"+dob.inspect
 	   params = {
