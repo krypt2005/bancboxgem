@@ -16,7 +16,9 @@ Or install it yourself as:
 
     $ gem install bancbox
 
-## Usage  For Api parameters please check https://invest.bancbox.com/apis_create_investor.html
+## Usage  
+
+For Api please check https://invest.bancbox.com/apis_create_investor.html
 
 
 irb > require 'bancbox'
